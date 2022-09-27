@@ -1,0 +1,13 @@
+.todo-form {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+input[type=text] {
+  font-size: 1.4rem;
+  padding: 0.4rem;
+}
+button {
+  align-self: flex-end;
+  width: fit-content;
+}
