@@ -15,7 +15,6 @@ export default defineConfig(() => {
       netlifyEdge({
         functionName: 'entry.server',
       }),
-      netlifyEdge({ functionName: 'entry.netlify-edge' }),
     ],
   };
 });
