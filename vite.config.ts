@@ -13,7 +13,7 @@ export default defineConfig(() => {
       }),
       tsconfigPaths(),
       netlifyEdge({
-        functionName: 'entry.server',
+        functionName: 'entry.netlify-edge',
       }),
     ],
   };
